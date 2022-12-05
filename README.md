@@ -11,21 +11,6 @@ Do not forget about the carry value.
 If there is a carry after the addition is completed, create a new node with the carry value and make it point to the head of the linked list.
 You can use the Node and LinkedList classes we implemented on the previous labs.
 Example output is given below.
-Main Class
-	public static void main(String[] args){
-		LinkedList ll new LinkedList();
-		ll.add(9);
-		ll.add(9);
-		ll.add(4);
-		// Digit to be added
-		int k = 6;
-		System.out.print("Before addition: ");
-		printLinkedList(ll);
-		System.out.println("Added value: " + k);
-		ll2 = addValue(ll, k);
-		System.out.print("After addition: ");
-		printLinkedList(ll2);
-	}
 
 Output
 Before addition: 9 -> 9 -> 4 -> NULL
